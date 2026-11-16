@@ -65,7 +65,7 @@ a{overflow-wrap:anywhere}a{color:var(--ac)}td,th{overflow-wrap:anywhere}@media(m
 
 <section class="card"><h2>Sources, licences, AI use</h2>
 <p>Data: NSIDC Sea Ice Index v4.0 (NOAA@NSIDC, G02135), Northern Hemisphere monthly extent, September file. Baseline: mean of 1981–2010 values in the same file. Music: Debussy, public-domain scores; MIDI from the Mutopia Project. Piano: Salamander Grand Piano samples (CC-BY, Alexander Holm). Libraries: Tone.js and @tonejs/midi (MIT). Narration: synthetic generic voice (VoxCPM2, Apache-2.0), not a clone of any person; the page falls back to the browser's built-in voice if the file is missing.</p>
-<p><b>AI use:</b> this page, the code, the text and the narration were made with AI assistance (Claude; VoxCPM2 for the voice). No voice or likeness of a minor appears in this work. Code is open source (<a href="https://github.com/tanxichu/earth-information-jukebox">https://github.com/tanxichu/earth-information-jukebox</a>).</p></section>
+<p><b>AI use:</b> this page, the code, the text and the narration were made with AI assistance (Claude; VoxCPM2 for the voice). No voice or likeness of a minor appears in this work. Code is open source (<a href="https://github.com/LuckisonDu/earth-information-jukebox">https://github.com/LuckisonDu/earth-information-jukebox</a>).</p></section>
 </main>
 <script>
 fetch("../playlist/playlist.json").then(r=>r.json()).then(d=>{document.getElementById("pl").innerHTML=d.items.map(i=>"<div>"+i.title+"<audio controls preload=none src='../playlist/"+i.file+"'></audio></div>").join("")}).catch(()=>{document.getElementById("pl").textContent="Playlist is being rendered."});

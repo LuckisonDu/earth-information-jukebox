@@ -2,7 +2,7 @@
 
 NASA Space Apps Challenge 2026 · Challenge: *The Earth Information Jukebox*.
 
-Live site: https://tanxichu.github.io/earth-information-jukebox/
+Live site: https://luckisondu.github.io/earth-information-jukebox/
 
 NASA Earth Information Center (EIC) visualizations, made by the NASA Scientific Visualization Studio (SVS), are turned
 into sound in the browser, so blind and low-vision people can explore them and anyone can hear the planet change.
