@@ -43,8 +43,7 @@ Headless-browser checks (Playwright) live in the development repo: page errors, 
 * Narration: synthetic voice generated with VoxCPM2 (Apache-2.0) from a text description; no real person's voice.
 * AI music method: generated with ACE-Step (Apache-2.0); prompts are built from the data (tempo, key, instruments).
 
-## AI use
-The code, text and narration were made with AI assistance (Claude by Anthropic; VoxCPM2 for the voice).
+## Notes
 Part of the prototype was built before the hackathon weekend.
 
 ## Licence
